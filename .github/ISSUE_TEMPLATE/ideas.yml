@@ -1,0 +1,28 @@
+name: "Icon request 🙏"
+labels: ['icon request']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Hi there! :wave:
+
+        Thanks for taking the time to fill out new request. Please use issues only to ask for new icons.
+        **If you want to discuss about something that doesn't match your taste, give feedback or chat about a topic, visit [Discussions](https://github.com/Vira-Theme/vira-theme-support-icons/discussions).
+        Every issue opened that's not related to a bug or icon request will be closed instantly.**
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Tell us more about the icon you want to request. Give all the info requested:
+        - SVG Icon or Url
+        - All file extensions associated with the icon"
+        - All filenames associated with the icon
+        - All the language IDs associated with the icon
+      placeholder: |
+        - https://....
+        - `txt`, `md`
+        - `myfile.md`, `myfile.config.txt`
+        - `text`, 'markdown'
+    validations:
+      required: true
