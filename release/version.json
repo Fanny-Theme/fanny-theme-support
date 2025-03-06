@@ -1,0 +1,12 @@
+{
+  "extensions": {
+    "vsc-vira-theme": {
+      "version": "0.2.7",
+      "downloadUrl": "https://github.com/vira-themes/vira-theme-support/raw/refs/heads/live/release/vsc-vira-theme-latest.vsix"
+    },
+    "vsc-vira-icons": {
+      "version": "v0.1.11",
+      "downloadUrl": "https://github.com/vira-themes/vira-theme-support/raw/refs/heads/live/release/vsc-vira-icons-latest.vsix"
+    }
+  }
+}
